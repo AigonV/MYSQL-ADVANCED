@@ -14,4 +14,4 @@ SELECT name, platform FROM game JOIN platform ON platform.id = game.platform_id 
 
    
 5. Copy paste je gemaakte SQL query hieronder
-SELECT name, platform FROM game JOIN platform ON platform.id = game.platform_id WHERE name = 'Borderlands 2' OR name = 'Borderlands'
+SELECT name, platform FROM game JOIN platform ON platform.id = game.platform_id WHERE name LIKE "Borderlands%"
